@@ -17,7 +17,6 @@ import requests
 
 # Functions
 
-# Main
 def exploration():
     st.title("GETAROUND - Analyse des délais de rendu des véhicules")
     
@@ -264,6 +263,7 @@ def visualise_code():
             st.code("".join(filin2.readlines()))
 
 
+# Main
 st.set_page_config( page_title="Getaround dashboard",
                     page_icon="",
                     layout="wide")#"centered")
